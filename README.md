@@ -1,4 +1,4 @@
-# Personal / Portfolio Website - [a link](diegojflores.com)
+# Personal / Portfolio Website - [diegojflores.com](diegojflores.com)
 
 ## Description:
 
