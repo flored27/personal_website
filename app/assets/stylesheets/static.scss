@@ -209,6 +209,7 @@ body, html {
   color: white;
   text-transform: uppercase;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  backface-visibility: hidden;
 }
 
 .title-primary-main {
@@ -216,6 +217,8 @@ body, html {
   font-size: 40px;
   font-family: 'Shrikhand';
   letter-spacing: 3px;
+
+  animation: fadeIn 1.75s;
 }
 
 .title-primary-sub {
@@ -223,8 +226,24 @@ body, html {
   font-size: 20px;
   letter-spacing: 5px;
   position: relative;
-  left: 13%
+  left: 13%;
+
+  animation: fadeIn 1.75s 1.2s;
+  animation-fill-mode: backwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 
 .about {
   // background-image: url("beginning_background.jpg");
