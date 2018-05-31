@@ -65,9 +65,11 @@
     </svg>
 
       <div class="container" id="about-photo">
-        <%= image_tag("Diego_profile_2.png", data: { "src" => image_path("Diego_profile_2.png") }, class:"lazy", alt:"Diego Flores", id: "profile_pic", style:"width:40%")%>
+        <%= image_tag("Diego_profile_2.png", data: { "src" => image_path("Diego_profile_2.png") }, class:"lazy", alt:"Diego Flores", id: "profile_pic")%>
+        <!-- This no script tag is in case an old browser can't use
+        the JS script for the loading of the image -->
         <noscript>
-          <%= image_tag("Diego_profile_2.png", alt:"Diego Flores", id: "profile_pic", style:"width:40%")%>
+          <%= image_tag("Diego_profile_2.png", alt:"Diego Flores", id: "profile_pic")%>
         </noscript>
       </div>
       <div class="container" id="profile_blurb">
