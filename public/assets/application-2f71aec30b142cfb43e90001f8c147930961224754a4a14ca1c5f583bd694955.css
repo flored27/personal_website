@@ -1,0 +1,875 @@
+/* line 5, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 11, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.hidden {
+  display: none;
+}
+
+/* line 13, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 20, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 27, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* line 34, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* The Modal (background) */
+/* line 41, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.modal1, .modal2, .modal3 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  padding-top: 35px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+  z-index: 9999;
+  /* Sit on top */
+}
+
+/* Modal Content (image) */
+/* line 56, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.modal-content1, .modal-content2, .modal-content3 {
+  margin: auto;
+  display: block;
+  height: auto;
+  width: 35%;
+  z-index: 9999;
+}
+
+/* Caption of Modal Image */
+/* line 66, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#captionModal1, #captionModal2, #captionModal3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+/* line 78, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.modal-content1, .modal-content2, .modal-content3, #captionModal1, #captionModal2, #captionModal3 {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* The Close Button */
+/* line 96, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.close1, .close2, .close3 {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* line 106, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.close1:hover,
+.close1:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 113, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 120, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.close3:hover,
+.close3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  /* line 129, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+  .modal-content {
+    width: 100%;
+  }
+}
+/* line 134, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.portfolio {
+  text-align: center;
+}
+
+/* Create four equal columns that floats next to each other */
+/* line 139, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.column {
+  float: left;
+  width: 21%;
+  margin-left: 100px;
+}
+
+/* Clear floats after rows */
+/* line 147, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+/* line 154, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#content2 {
+  background-color: white;
+  padding: 7px;
+}
+
+/* line 159, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.content2 {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+  /* line 167, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+  .column {
+    width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  /* line 174, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+  .column {
+    width: 100%;
+  }
+}
+/* line 179, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+body, html {
+  height: 100%;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* line 186, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.bgimg-1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.2), rgba(255, 255, 255, 0.3)), url("nyc.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* line 200, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.text-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 208, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.title-primary {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* line 214, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.title-primary-main {
+  display: block;
+  font-size: 40px;
+  font-family: 'Shrikhand';
+  letter-spacing: 3px;
+}
+
+/* line 221, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.title-primary-sub {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 5px;
+  position: relative;
+  left: 13%;
+}
+
+/* line 229, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.about {
+  min-height: 170%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-color: #f8f9fa;
+  background-repeat: no-repeat;
+}
+
+/* line 242, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#profile_pic {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* line 250, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#profile_blurb {
+  text-align: center;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* line 259, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#profile_blurb_social {
+  text-align: center;
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* line 268, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.projects {
+  background-image: url("diego_art_background.jpg");
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-color: #eef4fa;
+  background-repeat: no-repeat;
+}
+
+/* line 281, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project1 {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+  width: 25%;
+  height: 300px;
+}
+
+/* line 289, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project2 {
+  position: absolute;
+  top: 50px;
+  left: 420px;
+  width: 25%;
+  height: 300px;
+}
+
+/* line 297, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project3 {
+  position: absolute;
+  top: 50px;
+  left: 750px;
+  width: 25%;
+  height: 300px;
+}
+
+/* line 307, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: gray;
+}
+
+/* line 320, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project1:hover .overlay {
+  opacity: 1;
+}
+
+/* line 324, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project2:hover .overlay {
+  opacity: 1;
+}
+
+/* line 328, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.project3:hover .overlay {
+  opacity: 1;
+}
+
+/* line 332, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 344, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.blog {
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-color: #eef4fa;
+  background-repeat: no-repeat;
+}
+
+/* line 356, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.blog-container {
+  position: absolute;
+  top: 10%;
+}
+
+/* line 361, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.contact-container {
+  position: absolute;
+  top: 25%;
+  left: 22.5%;
+}
+
+/* line 367, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.contact {
+  background-image: url("pink-nyc.jpg");
+  min-height: 115%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-color: #eef4fa;
+  background-repeat: no-repeat;
+}
+
+/* line 424, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* line 431, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.caption-projects {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+/* line 439, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#navbar {
+  z-index: 9999;
+}
+
+/* line 443, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#navigation {
+  overflow: visible;
+  padding: 0;
+  position: absolute;
+  top: 88%;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* line 456, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#navigation li {
+  height: 100%;
+  float: left;
+  margin-left: 120px;
+  text-align: center;
+}
+
+/* line 462, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#navigation li a {
+  float: center;
+  text-align: center;
+  color: #fdb928;
+  font-family: 'Architects Daughter';
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* line 470, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#navigation li a:hover, #navigation li.selected a {
+  color: #fff;
+  font-family: 'Creepster';
+}
+
+/* Style the header */
+/* line 476, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  z-index: 1;
+  top: 500px;
+  position: absolute;
+}
+
+/* line 485, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.header2 {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  z-index: 1;
+  top: 10px;
+  position: absolute;
+}
+
+/* Page content */
+/* line 495, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.content {
+  padding: 160px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+/* line 500, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.sticky {
+  position: fixed;
+  top: -15px;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* line 507, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.sticky + .content {
+  padding-top: 10px;
+}
+
+/* Side By Side */
+/* line 513, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+a {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 519, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+#fm-medium-embed {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 525, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.fm-post-wrapper {
+  display: inline-block;
+  border-radius: 3px;
+  width: 300px;
+  padding: 10px;
+  background: #fff;
+  text-align: left;
+  margin: 10px;
+  min-height: 340px;
+  border: 1px solid #bbb;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* line 538, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.fm-post-title {
+  font-size: 20px;
+  height: 30px;
+  white-space: nowrap;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 547, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.fm-post-sub-title {
+  min-height: 130px;
+  line-height: 20px;
+  color: #333;
+}
+
+/* line 553, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.fm-medium-profile {
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+
+/* line 559, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.fm-medium-profile a {
+  display: inline-block;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid #4285f4;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ///// inputs /////*/
+/* line 570, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+/* line 578, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 5px;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 587, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+  .styled-input {
+    width: 100%;
+  }
+}
+/* line 592, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+/* line 603, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+/* line 608, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input,
+textarea {
+  padding: 25px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+/* line 619, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+/* line 622, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+/* line 629, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+/* line 634, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 10px auto 15px auto;
+}
+
+/* line 641, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.submit-btn {
+  float: right;
+  padding: 5px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+/* line 657, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  /* line 664, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+/* line 671, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+/* line 676, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+/* line 680, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.contactTitle {
+  z-index: 5;
+  position: absolute;
+  top: -11%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+}
+
+/* line 689, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.card-row1 {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 7%;
+}
+
+/* line 696, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.card-row2 {
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  left: 12%;
+}
+
+/* line 703, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+figure {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* line 711, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+figure:hover {
+  opacity: 0.3;
+}
+
+/* line 715, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.mySlides {
+  display: none;
+}
+
+/* line 716, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+}
+
+/* line 717, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+
+/* line 719, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+.social_icon:hover {
+  opacity: 0.3;
+}
+
+/* line 723, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* line 728, /Users/diegoflores/projects/stark-oasis-69851/app/assets/stylesheets/static.scss */
+img[data-src] {
+  opacity: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+
+ */
+
+
+ 
+/* Make clicks pass-through */
+/* line 6, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+#nprogress {
+  pointer-events: none;
+}
+
+/* line 10, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+#nprogress .bar {
+  background: #29d;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+/* line 23, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+/* line 38, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 46, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+/* line 60, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 65, /Users/diegoflores/.rvm/gems/ruby-2.3.3/gems/nprogress-rails-0.2.0.2/app/assets/stylesheets/nprogress.scss */
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#nprogress .bar,
+#nprogress .spinner {
+  z-index: 999999;
+}

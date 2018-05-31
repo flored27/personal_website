@@ -1028,3 +1028,2133 @@ Processing by StaticController#home as HTML
 Completed 200 OK in 1120ms (Views: 1105.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:33:39 -0400
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (2560.2ms)
+Completed 200 OK in 2715ms (Views: 2697.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:33:52 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (92.4ms)
+Completed 200 OK in 251ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:34:04 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (326.5ms)
+Completed 200 OK in 899ms (Views: 887.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:35:06 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (64.8ms)
+Completed 500 Internal Server Error in 329ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  animation": expected ";", was ": fadeIn 1.5s ...."):
+     7:     <%= csrf_meta_tags %>
+     8:     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     9:     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shrikhand" rel="stylesheet">
+    13: 
+  
+app/assets/stylesheets/static.scss:230
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__768684244573390750_70187058439940'
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:35:34 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (64.5ms)
+Completed 500 Internal Server Error in 239ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  animation": expected ";", was ": fadeIn 1.5s e..."):
+     7:     <%= csrf_meta_tags %>
+     8:     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     9:     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shrikhand" rel="stylesheet">
+    13: 
+  
+app/assets/stylesheets/static.scss:230
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__768684244573390750_70187048465560'
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:35:50 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 545ms (Views: 540.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:35:55 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (178.0ms)
+Completed 200 OK in 485ms (Views: 469.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (49.6ms)
+Completed 200 OK in 142ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:06 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (51.9ms)
+Completed 200 OK in 144ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:13 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (57.6ms)
+Completed 200 OK in 568ms (Views: 562.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:25 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 588ms (Views: 584.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:38 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (48.8ms)
+Completed 200 OK in 120ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:36:59 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 575ms (Views: 569.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:37:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 98ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:37:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 607ms (Views: 602.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:37:37 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 597ms (Views: 592.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:37:43 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (40.9ms)
+Completed 200 OK in 118ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:37:49 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 98ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:38:12 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 467ms (Views: 462.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:39:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 710ms (Views: 702.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:39:11 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 115ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 18:39:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 518ms (Views: 513.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-18 15:16:16 -0400
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (2304.0ms)
+Completed 200 OK in 2448ms (Views: 2432.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:45:59 -0400
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:46:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (71.2ms)
+  Rendered static/home.html.erb within layouts/application (3025.9ms)
+Completed 200 OK in 561ms (Views: 557.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3199ms (Views: 3184.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:47:53 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (379.5ms)
+Completed 200 OK in 958ms (Views: 942.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:48:26 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 780ms (Views: 766.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:49:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (79.4ms)
+Completed 200 OK in 782ms (Views: 768.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:50:53 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (70.4ms)
+Completed 500 Internal Server Error in 423ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  height": expected ";", was ":  100%;"):
+     7:     <%= csrf_meta_tags %>
+     8:     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     9:     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shrikhand" rel="stylesheet">
+    13: 
+  
+app/assets/stylesheets/static.scss:480
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__73681360223705114_70360190076860'
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:51:03 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 597ms (Views: 593.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:51:38 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (112.9ms)
+Completed 200 OK in 985ms (Views: 975.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:51:54 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (280.3ms)
+Completed 200 OK in 1031ms (Views: 1021.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 10:52:15 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 839ms (Views: 829.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:01:26 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (124.4ms)
+Completed 200 OK in 1134ms (Views: 1111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:01:49 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (126.7ms)
+Completed 200 OK in 272ms (Views: 256.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:04:03 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (137.8ms)
+Completed 200 OK in 1141ms (Views: 1119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:04:13 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (116.4ms)
+Completed 200 OK in 324ms (Views: 314.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:04:42 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (165.9ms)
+Completed 200 OK in 1148ms (Views: 1134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:04:51 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (112.5ms)
+Completed 200 OK in 828ms (Views: 810.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:05:04 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (93.3ms)
+Completed 200 OK in 742ms (Views: 724.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:05:11 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 170ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:05:58 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 903ms (Views: 892.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:06:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (127.0ms)
+Completed 200 OK in 831ms (Views: 816.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:06:36 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (130.6ms)
+Completed 200 OK in 254ms (Views: 242.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:07:08 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (91.6ms)
+Completed 200 OK in 995ms (Views: 984.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:07:19 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 964ms (Views: 954.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:07:29 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (54.7ms)
+Completed 200 OK in 592ms (Views: 587.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:07:36 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (65.8ms)
+Completed 200 OK in 625ms (Views: 616.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:07:42 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 132ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:08:27 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (137.3ms)
+Completed 200 OK in 1167ms (Views: 1150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:08:38 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (142.6ms)
+Completed 200 OK in 984ms (Views: 975.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:09:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (119.7ms)
+Completed 200 OK in 866ms (Views: 855.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:09:16 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 205ms (Views: 201.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:09:34 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (103.6ms)
+Completed 200 OK in 826ms (Views: 814.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:09:41 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 161ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:09:55 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (241.1ms)
+Completed 200 OK in 894ms (Views: 884.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:10:03 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:10:27 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (91.5ms)
+Completed 200 OK in 772ms (Views: 762.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:10:36 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (48.5ms)
+Completed 200 OK in 667ms (Views: 659.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:10:55 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (77.3ms)
+Completed 200 OK in 890ms (Views: 879.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:11:00 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 117ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:11:24 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (108.3ms)
+Completed 200 OK in 875ms (Views: 863.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:11:35 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 566ms (Views: 562.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:11:43 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 159ms (Views: 156.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:12:14 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (86.8ms)
+Completed 200 OK in 938ms (Views: 927.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:12:19 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 95ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:12:37 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 756ms (Views: 746.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:12:51 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 554ms (Views: 550.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:13:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (53.4ms)
+Completed 200 OK in 659ms (Views: 653.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:13:09 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (93.7ms)
+Completed 200 OK in 770ms (Views: 759.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:13:29 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (99.6ms)
+Completed 200 OK in 722ms (Views: 711.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:13:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (102.8ms)
+Completed 200 OK in 719ms (Views: 702.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:13:56 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (49.8ms)
+Completed 200 OK in 137ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:14:10 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (68.9ms)
+Completed 200 OK in 983ms (Views: 972.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:14:19 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (78.9ms)
+Completed 200 OK in 705ms (Views: 689.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:14:28 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (79.2ms)
+Completed 200 OK in 957ms (Views: 946.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:14:41 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 620ms (Views: 611.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:14:50 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (131.5ms)
+Completed 200 OK in 311ms (Views: 301.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:26:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (254.0ms)
+Completed 200 OK in 1182ms (Views: 1160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:29:55 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (260.9ms)
+Completed 200 OK in 1210ms (Views: 1192.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:30:06 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (180.2ms)
+Completed 200 OK in 378ms (Views: 365.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:30:33 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (253.0ms)
+Completed 200 OK in 1722ms (Views: 1698.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:30:35 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (165.4ms)
+Completed 200 OK in 416ms (Views: 407.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:30:51 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (124.0ms)
+Completed 200 OK in 868ms (Views: 847.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:31:01 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (128.4ms)
+Completed 200 OK in 930ms (Views: 915.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:31:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (185.2ms)
+Completed 200 OK in 367ms (Views: 356.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:31:25 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (131.9ms)
+Completed 200 OK in 1016ms (Views: 999.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:31:41 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (265.8ms)
+Completed 200 OK in 1057ms (Views: 1041.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:31:50 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (121.4ms)
+Completed 200 OK in 317ms (Views: 301.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:43:53 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (174.2ms)
+Completed 200 OK in 1020ms (Views: 1000.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:45:15 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (140.7ms)
+Completed 200 OK in 1159ms (Views: 1143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:53:48 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (221.2ms)
+Completed 200 OK in 1740ms (Views: 1719.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:54:01 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (125.8ms)
+Completed 200 OK in 982ms (Views: 970.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:54:33 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (129.3ms)
+Completed 200 OK in 1023ms (Views: 1009.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:55:30 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (135.8ms)
+Completed 200 OK in 1043ms (Views: 1029.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:55:33 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (123.1ms)
+Completed 200 OK in 555ms (Views: 546.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:55:49 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (129.2ms)
+Completed 200 OK in 862ms (Views: 850.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:57:40 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (189.4ms)
+Completed 200 OK in 391ms (Views: 375.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:57:56 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (106.2ms)
+Completed 200 OK in 968ms (Views: 957.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:58:03 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (94.5ms)
+Completed 200 OK in 261ms (Views: 250.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:58:15 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (116.3ms)
+Completed 200 OK in 1162ms (Views: 1148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:58:35 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (118.6ms)
+Completed 200 OK in 290ms (Views: 271.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 11:58:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (113.6ms)
+Completed 200 OK in 1060ms (Views: 1050.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:00:23 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (184.0ms)
+Completed 200 OK in 384ms (Views: 363.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:00:38 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (136.7ms)
+Completed 200 OK in 1047ms (Views: 1038.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:00:49 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (186.8ms)
+Completed 200 OK in 1632ms (Views: 1618.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:00:51 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (294.2ms)
+Completed 200 OK in 595ms (Views: 563.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:04:06 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (171.0ms)
+Completed 200 OK in 948ms (Views: 935.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:12:37 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (195.4ms)
+Completed 200 OK in 1180ms (Views: 1163.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:13:00 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (135.2ms)
+Completed 200 OK in 1003ms (Views: 988.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:14:34 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (169.7ms)
+Completed 200 OK in 1003ms (Views: 990.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:14:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (104.0ms)
+Completed 200 OK in 956ms (Views: 941.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:14:58 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (107.2ms)
+Completed 200 OK in 805ms (Views: 794.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:15:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (48.4ms)
+Completed 200 OK in 715ms (Views: 710.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:15:10 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 116ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:15:32 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (123.9ms)
+Completed 200 OK in 1026ms (Views: 1013.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:15:54 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (124.7ms)
+Completed 200 OK in 308ms (Views: 298.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:16:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (109.8ms)
+Completed 200 OK in 285ms (Views: 268.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:16:15 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (88.4ms)
+Completed 200 OK in 779ms (Views: 766.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:18:06 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (275.4ms)
+Completed 200 OK in 911ms (Views: 900.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:18:34 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (134.8ms)
+Completed 200 OK in 805ms (Views: 794.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:18:51 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (112.4ms)
+Completed 200 OK in 770ms (Views: 759.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:18:58 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (260.6ms)
+Completed 200 OK in 1089ms (Views: 1086.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:19:15 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (82.3ms)
+Completed 200 OK in 758ms (Views: 748.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:19:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (36.8ms)
+Completed 200 OK in 502ms (Views: 497.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:19:28 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 93ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:19:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 881ms (Views: 877.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:19:50 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 107ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:20:18 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (105.0ms)
+Completed 200 OK in 784ms (Views: 773.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:20:34 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 108ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:20:54 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 802ms (Views: 792.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:25:28 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (194.8ms)
+Completed 200 OK in 367ms (Views: 347.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:25:30 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (89.2ms)
+Completed 200 OK in 215ms (Views: 209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:25:48 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (223.5ms)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:98: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:98: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/rails.png", data: { "src" =>...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d=( image_tag("logos/rails.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."logos/rails.png", data: { "src" => image_path("logos/rails....
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/rails.png") }, class:"lazy",...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=> image_path("logos/rails.png") }, class:"lazy", style:"wid...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ogos/rails.png") }, class:"lazy", style:"width:60%"));@outpu...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+...) }, class:"lazy", style:"width:60%"));@output_buffer.safe_a...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:104: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:104: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/javascript.png", data: { "sr...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tSTRING_BEG, expecting ')'
+...mage_tag("logos/javascript.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+...s/javascript.png", data: { "src" => image_path("logos/javasc...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/javascript.png") }, class:"l...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tSTRING_BEG, expecting ')'
+...age_path("logos/javascript.png") }, class:"lazy", style:"wid...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+...javascript.png") }, class:"lazy", style:"width:60%"));@outpu...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+...) }, class:"lazy", style:"width:60%"));@output_buffer.safe_a...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:110: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:110: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/react.png", data: { "src" =>...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d=( image_tag("logos/react.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."logos/react.png", data: { "src" => image_path("logos/react....
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/react.png") }, class:"lazy",...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=> image_path("logos/react.png") }, class:"lazy", style:"wid...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ogos/react.png") }, class:"lazy", style:"width:60%"));@outpu...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+...) }, class:"lazy", style:"width:60%"));@output_buffer.safe_a...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:116: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:116: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <div class="col s4"style="float: left;">
+                                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:117: syntax error, unexpected tIDENTIFIER, expecting ')'
+                  <figure style="margin-left: 10px;">
+                                       ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:117: syntax error, unexpected ':', expecting ')'
+                  <figure style="margin-left: 10px;">
+                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/redux.png", data: { "src" =>...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d=( image_tag("logos/redux.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."logos/redux.png", data: { "src" => image_path("logos/redux....
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/redux.png") }, class:"lazy",...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=> image_path("logos/redux.png") }, class:"lazy", style:"wid...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ogos/redux.png") }, class:"lazy", style:"width:60%"));@outpu...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+...) }, class:"lazy", style:"width:60%"));@output_buffer.safe_a...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:124: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="container" id="profile_blurb_social">
+                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:124: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="container" id="profile_blurb_social">
+                                                         ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:125: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <h4 style="color: black; font-weight: bold;">
+                            ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:125: syntax error, unexpected ':', expecting ')'
+            <h4 style="color: black; font-weight: bold;">
+                                                 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:129: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="card-row2">
+                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:129: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          <div class="card-row2">
+                                ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:130: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <div class="row text-center" >
+                           ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+            <div class="row text-center" >
+                                        ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:131: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:131: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:132: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <figure style="margin-top: 1em;">
+                                     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:132: syntax error, unexpected ':', expecting ')'
+                <figure style="margin-top: 1em;">
+                                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...                 <a href="https://www.instagram.com/dieggs27...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: unknown regexp options - www
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/instagram.png", data: { "src...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tSTRING_BEG, expecting ')'
+...image_tag("logos/instagram.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...os/instagram.png", data: { "src" => image_path("logos/instag...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/instagram.png") }, class:"la...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tSTRING_BEG, expecting ')'
+...mage_path("logos/instagram.png") }, class:"lazy social_icon"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+.../instagram.png") }, class:"lazy social_icon", style:"width:6...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lazy social_icon", style:"width:60%;", id:"social_icon"));@o...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e:"width:60%;", id:"social_icon"));@output_buffer.safe_appen...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+...                 <a href="https://www.instagram.com/dieggs27...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: unknown regexp options - www
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/instagram.png", style:"width...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: syntax error, unexpected tSTRING_BEG, expecting ')'
+...image_tag("logos/instagram.png", style:"width:60%;", id:"soc...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+...os/instagram.png", style:"width:60%;", id:"social_icon"));@o...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e:"width:60%;", id:"social_icon"));@output_buffer.safe_appen...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:140: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:140: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:141: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <figure style="margin-top: 1em;">
+                                     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:141: syntax error, unexpected ':', expecting ')'
+                <figure style="margin-top: 1em;">
+                                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <a href="https://www.linkedin.com/in/diegoj...
+                              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: unknown regexp options - www
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected keyword_in
+...ef="https://www.linkedin.com/in/diegojflores/">'.freeze;@out...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+....linkedin.com/in/diegojflores/">'.freeze;@output_buffer.appe...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/Linkedin.png", data: { "src"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+... image_tag("logos/Linkedin.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...gos/Linkedin.png", data: { "src" => image_path("logos/Linked...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/Linkedin.png") }, class:"laz...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+...image_path("logos/Linkedin.png") }, class:"lazy social_icon"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...s/Linkedin.png") }, class:"lazy social_icon", style:"width:6...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lazy social_icon", style:"width:60%", id: "social_icon"));@o...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e:"width:60%", id: "social_icon"));@output_buffer.safe_appen...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:146: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:146: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:147: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <figure style="margin-top: 1em;">
+                                     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:147: syntax error, unexpected ':', expecting ')'
+                <figure style="margin-top: 1em;">
+                                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <a href="https://github.com/flored27">'.fre...
+                              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: unknown regexp options - gthb
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...f="https://github.com/flored27">'.freeze;@output_buffer.appe...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( image_tag("logos/github.png", data: { "src" =...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=( image_tag("logos/github.png", data: { "src" => image_path...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...logos/github.png", data: { "src" => image_path("logos/github...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...a: { "src" => image_path("logos/github.png") }, class:"lazy ...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting ')'
+...> image_path("logos/github.png") }, class:"lazy social_icon"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...gos/github.png") }, class:"lazy social_icon", style:"width:6...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lazy social_icon", style:"width:60%", id:"social_icon"));@ou...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+...le:"width:60%", id:"social_icon"));@output_buffer.safe_appen...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:152: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:152: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <div class="col s4"style="float: left;">
+                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:153: syntax error, unexpected tIDENTIFIER, expecting ')'
+                <figure style="margin-top: 1em;">
+                                     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:153: syntax error, unexpected ':', expecting ')'
+                <figure style="margin-top: 1em;">
+                                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:155: syntax error, unexpected '<', expecting ')'
+                  <figcaption>Email</figcaption>
+                   ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:156: unknown regexp options - fgr
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:157: syntax error, unexpected '<'
+              </div>
+               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:158: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:159: syntax error, unexpected '<'
+          </div>
+           ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:161: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:165: syntax error, unexpected '<'
+<div style="padding:10px 10px;...
+ ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:166: syntax error, unexpected '|'
+  | Projects |
+   ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:179: unknown regexp option - h
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:179: syntax error, unexpected tINTEGER, expecting ')'
+								<h2>Property Assistant 2018</h2>
+								                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:180: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...			      <p>Property management application for small-scale ...
+...			                            ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:180: syntax error, unexpected '-', expecting &. or :: or '[' or '.'
+...nagement application for small-scale landlords</p>
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:181: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:182: syntax error, unexpected '<'
+			  		</div>
+			  		 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:183: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:184: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:191: unknown regexp option - h
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:191: syntax error, unexpected tINTEGER, expecting ')'
+								<h2>Stylpfizer</h2>
+								                  ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:192: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+		      			<p>A closet-organizing app that helps ke...
+		      			           ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:192: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  			<p>A closet-organizing app that helps keep track of clo...
+...  			                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:192: syntax error, unexpected ',', expecting ')'
+...p track of clothes and outfits, as well as make new outfits<...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:193: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:194: syntax error, unexpected '<'
+		  			</div>
+		  			 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:195: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:196: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:203: unknown regexp option - h
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:203: syntax error, unexpected tINTEGER, expecting ')'
+								<h2>Trippr</h2>
+								              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+		      			<p>A trip-planning app that creates it...
+		      			         ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...      			<p>A trip-planning app that creates itineraries for...
+...      			                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...s itineraries for future travel plans</p>
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:205: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:206: syntax error, unexpected '<'
+		  			</div>
+		  			 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:207: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:208: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:209: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:210: syntax error, unexpected '<'
+		</div>
+		 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:214: unknown regexp options - pa
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:215: syntax error, unexpected '<'
+				<!-- <img class="modal-content1" id="img01"> -->
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:215: syntax error, unexpected '<'
+				<!-- <img class="modal-content1" id="img01"> -->
+				      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:215: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<!-- <img class="modal-content1" id="img01"> -->
+				                                   ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:215: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:217: syntax error, unexpected '<', expecting ')'
+				    <div id="captionModal1">
+				     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:218: syntax error, unexpected '<'
+              <a href="https://flored27.gith...
+               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:218: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...operty-Assistant-2018">Check it out: flored27.github.io/Prop...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:219: unknown regexp options - br
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:220: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+              - Backend built with Ruby on Rails in the MV...
+                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:220: syntax error, unexpected keyword_in, expecting ')'
+...end built with Ruby on Rails in the MVC pattern and CRUD ope...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:221: syntax error, unexpected '<', expecting ')'
+              </br>
+               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:223: unknown regexp options - br
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:224: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...            - Configured Action Mailer to allow landlords an...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:225: syntax error, unexpected '<', expecting ')'
+              </br>
+               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:227: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:228: syntax error, unexpected '<'
+				</div>
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:229: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:230: syntax error, unexpected '<'
+			<!-- PROJECT MODAL 2 -->
+			 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:230: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+			<!-- PROJECT MODAL 2 -->
+			                  ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:230: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:231: syntax error, unexpected keyword_class, expecting ')'
+			<div id="modal2" class="modal2">
+			                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:232: syntax error, unexpected '<'
+				<span class="close2">&times;</span>
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:232: syntax error, unexpected &
+				<span class="close2">&times;</span>
+				                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:232: syntax error, unexpected '<', expecting ')'
+				<span class="close2">&times;</span>
+				                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:246: syntax error, unexpected tIDENTIFIER, expecting ')'
+			<div id="modal3" class="modal3">
+			               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:246: syntax error, unexpected tIDENTIFIER, expecting ')'
+			<div id="modal3" class="modal3">
+			                              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:247: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<span class="close3">&times;</span>
+				                   ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tCONSTANT, expecting ')'
+...ffer.append=( image_tag("Trippr.png", style:"width:70%", cla...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+..._tag("Trippr.png", style:"width:70%", class:"modal-content3"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+...style:"width:70%", class:"modal-content3", id: "img03", alt:...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...th:70%", class:"modal-content3", id: "img03", alt: "Trippr")...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ss:"modal-content3", id: "img03", alt: "Trippr"));@output_bu...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:248: syntax error, unexpected tCONSTANT, expecting ')'
+...nt3", id: "img03", alt: "Trippr"));@output_buffer.safe_appen...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:249: syntax error, unexpected tIDENTIFIER, expecting ')'
+  				<div id="captionModal3">
+  				                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:250: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <a href="https://trippr-client.herokuapp.co...
+                          ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:250: unknown regexp options - trppr
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:267: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<div id="bgimg-blog" class="blog">
+	              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:267: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+	<div id="bgimg-blog" class="blog">
+	                    ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:267: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<div id="bgimg-blog" class="blog">
+	                                ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:268: syntax error, unexpected tIDENTIFIER, expecting ')'
+	  <div style="padding:10px 10px;color:#ddd;backgro...
+	                     ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:268: syntax error, unexpected ':', expecting ')'
+...style="padding:10px 10px;color:#ddd;background-color:#282E34...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ns="http://www.w3.org/2000/svg" class="svgcolor-light" posit...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tIDENTIFIER, expecting ')'
+...3.org/2000/svg" class="svgcolor-light" position: "absolute" ...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...000/svg" class="svgcolor-light" position: "absolute" left: "...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tIDENTIFIER, expecting ')'
+...olor-light" position: "absolute" left: "0" top:"0" z-index:"...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tINTEGER, expecting ')'
+..." position: "absolute" left: "0" top:"0" z-index:"-1">
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tINTEGER, expecting ')'
+...on: "absolute" left: "0" top:"0" z-index:"-1">
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting ')'
+... left: "0" top:"0" z-index:"-1">
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:273: syntax error, unexpected tCONSTANT, expecting ')'
+      <path d="M0 0 L50 65 L100 0 Z" fill="red" stroke="black"></path>
+                 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:273: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <path d="M0 0 L50 65 L100 0 Z" fill="red" stroke="black"></path>
+                                              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:273: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <path d="M0 0 L50 65 L100 0 Z" fill="red" stroke="black"></path>
+                                                             ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <div class="blog-container" id="fm-medium-embed"></div>
+                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:275: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      <div class="blog-container" id="fm-medium-embed"></div>
+                                 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <div class="blog-container" id="fm-medium-embed"></div>
+                                        ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:275: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      <div class="blog-container" id="fm-medium-embed"></div>
+                                                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:276: unknown regexp options - bd
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:276: syntax error, unexpected tSTRING_BEG, expecting ')'
+      <script src="//data.feedmirror.com/embed.js"></script>
+                                                  ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:290: syntax error, unexpected tIDENTIFIER, expecting ')'
+		<!-- <div class="row">
+		                    ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:291: syntax error, unexpected tIDENTIFIER, expecting ')'
+			<div class="column"> -->
+			                  ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:296: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="bgimg-contact" class="contact">
+              ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:296: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+<div id="bgimg-contact" class="contact">
+                       ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:296: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="bgimg-contact" class="contact">
+                                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:297: syntax error, unexpected tIDENTIFIER, expecting ')'
+  <div style="position:relative;">
+                      ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:298: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div style="padding:10px 10px;color:#ddd;backgro...
+                       ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:298: syntax error, unexpected ':', expecting ')'
+...style="padding:10px 10px;color:#ddd;background-color:#282E34...
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:301: unknown regexp options - dv
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:304: syntax error, unexpected '<'
+			<div class="contact-container">
+			 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:305: syntax error, unexpected '<'
+		<div class="row">
+		 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:306: syntax error, unexpected '<'
+      <div class="contactTitle">
+       ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:307: syntax error, unexpected '<'
+				<h3 style="text-align:center;f...
+				 ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:307: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+...ck;font-family:Shrikhand;">Let\'s get in touch</h3>
+...                               ^
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:487: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/diegoflores/projects/stark-oasis-69851/app/views/static/home.html.erb:489: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/static/home.html.erb:98: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:98: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:100: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:104: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:104: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:110: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:110: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:116: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:116: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:117: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:117: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:124: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:124: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:125: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:125: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:129: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:129: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:130: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:130: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:131: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:131: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:132: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:132: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: unknown regexp options - www
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:133: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:135: unknown regexp options - www
+app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:135: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:135: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:140: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:140: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:141: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:141: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: unknown regexp options - www
+app/views/static/home.html.erb:142: syntax error, unexpected keyword_in
+app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:142: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:146: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:146: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:147: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:147: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: unknown regexp options - gthb
+app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:148: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:152: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:152: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:153: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:153: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:155: syntax error, unexpected '<', expecting ')'
+app/views/static/home.html.erb:156: unknown regexp options - fgr
+app/views/static/home.html.erb:157: syntax error, unexpected '<'
+app/views/static/home.html.erb:158: unknown regexp options - dv
+app/views/static/home.html.erb:159: syntax error, unexpected '<'
+app/views/static/home.html.erb:161: unknown regexp options - dv
+app/views/static/home.html.erb:165: syntax error, unexpected '<'
+app/views/static/home.html.erb:166: syntax error, unexpected '|'
+app/views/static/home.html.erb:179: unknown regexp option - h
+app/views/static/home.html.erb:179: syntax error, unexpected tINTEGER, expecting ')'
+app/views/static/home.html.erb:180: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:180: syntax error, unexpected '-', expecting &. or :: or '[' or '.'
+app/views/static/home.html.erb:181: unknown regexp options - dv
+app/views/static/home.html.erb:182: syntax error, unexpected '<'
+app/views/static/home.html.erb:183: unknown regexp options - dv
+app/views/static/home.html.erb:184: syntax error, unexpected '<'
+app/views/static/home.html.erb:191: unknown regexp option - h
+app/views/static/home.html.erb:191: syntax error, unexpected tINTEGER, expecting ')'
+app/views/static/home.html.erb:192: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:192: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:192: syntax error, unexpected ',', expecting ')'
+app/views/static/home.html.erb:193: unknown regexp options - dv
+app/views/static/home.html.erb:194: syntax error, unexpected '<'
+app/views/static/home.html.erb:195: unknown regexp options - dv
+app/views/static/home.html.erb:196: syntax error, unexpected '<'
+app/views/static/home.html.erb:203: unknown regexp option - h
+app/views/static/home.html.erb:203: syntax error, unexpected tINTEGER, expecting ')'
+app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:204: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:205: unknown regexp options - dv
+app/views/static/home.html.erb:206: syntax error, unexpected '<'
+app/views/static/home.html.erb:207: unknown regexp options - dv
+app/views/static/home.html.erb:208: syntax error, unexpected '<'
+app/views/static/home.html.erb:209: unknown regexp options - dv
+app/views/static/home.html.erb:210: syntax error, unexpected '<'
+app/views/static/home.html.erb:214: unknown regexp options - pa
+app/views/static/home.html.erb:215: syntax error, unexpected '<'
+app/views/static/home.html.erb:215: syntax error, unexpected '<'
+app/views/static/home.html.erb:215: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:215: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static/home.html.erb:217: syntax error, unexpected '<', expecting ')'
+app/views/static/home.html.erb:218: syntax error, unexpected '<'
+app/views/static/home.html.erb:218: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:219: unknown regexp options - br
+app/views/static/home.html.erb:220: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:220: syntax error, unexpected keyword_in, expecting ')'
+app/views/static/home.html.erb:221: syntax error, unexpected '<', expecting ')'
+app/views/static/home.html.erb:223: unknown regexp options - br
+app/views/static/home.html.erb:224: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:225: syntax error, unexpected '<', expecting ')'
+app/views/static/home.html.erb:227: unknown regexp options - dv
+app/views/static/home.html.erb:228: syntax error, unexpected '<'
+app/views/static/home.html.erb:229: unknown regexp options - dv
+app/views/static/home.html.erb:230: syntax error, unexpected '<'
+app/views/static/home.html.erb:230: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:230: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static/home.html.erb:231: syntax error, unexpected keyword_class, expecting ')'
+app/views/static/home.html.erb:232: syntax error, unexpected '<'
+app/views/static/home.html.erb:232: syntax error, unexpected &
+app/views/static/home.html.erb:232: syntax error, unexpected '<', expecting ')'
+app/views/static/home.html.erb:246: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:246: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:247: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:248: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:248: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:248: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:248: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/static/home.html.erb:249: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:250: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:250: unknown regexp options - trppr
+app/views/static/home.html.erb:267: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:267: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:267: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:268: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:268: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:272: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:272: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:272: syntax error, unexpected tINTEGER, expecting ')'
+app/views/static/home.html.erb:272: syntax error, unexpected tINTEGER, expecting ')'
+app/views/static/home.html.erb:272: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:273: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/static/home.html.erb:273: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:273: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:275: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:275: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:276: unknown regexp options - bd
+app/views/static/home.html.erb:276: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/static/home.html.erb:290: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:291: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:296: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:296: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:296: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:297: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:298: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static/home.html.erb:298: syntax error, unexpected ':', expecting ')'
+app/views/static/home.html.erb:301: unknown regexp options - dv
+app/views/static/home.html.erb:304: syntax error, unexpected '<'
+app/views/static/home.html.erb:305: syntax error, unexpected '<'
+app/views/static/home.html.erb:306: syntax error, unexpected '<'
+app/views/static/home.html.erb:307: syntax error, unexpected '<'
+app/views/static/home.html.erb:307: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+app/views/static/home.html.erb:487: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/static/home.html.erb:489: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:26:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (111.6ms)
+Completed 200 OK in 275ms (Views: 259.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:26:18 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (123.7ms)
+Completed 200 OK in 261ms (Views: 250.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:26:28 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (75.6ms)
+Completed 200 OK in 195ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:26:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (92.4ms)
+Completed 200 OK in 242ms (Views: 233.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:27:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (111.1ms)
+Completed 200 OK in 403ms (Views: 392.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:27:16 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (48.0ms)
+Completed 200 OK in 143ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:27:23 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 118ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:28:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (115.0ms)
+Completed 200 OK in 885ms (Views: 873.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:28:21 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (83.3ms)
+Completed 200 OK in 693ms (Views: 682.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:28:32 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 842ms (Views: 838.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:29:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (167.2ms)
+Completed 200 OK in 365ms (Views: 354.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:29:20 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (53.3ms)
+Completed 200 OK in 147ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:29:35 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 660ms (Views: 651.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:29:40 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 110ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:30:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (89.4ms)
+Completed 200 OK in 754ms (Views: 743.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:30:17 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (65.4ms)
+Completed 200 OK in 835ms (Views: 830.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:30:25 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 144ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:30:42 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (52.2ms)
+Completed 200 OK in 143ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:31:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 770ms (Views: 758.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:31:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 161ms (Views: 155.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:33:12 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (94.6ms)
+Completed 200 OK in 868ms (Views: 858.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:33:46 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (106.3ms)
+Completed 200 OK in 1116ms (Views: 1106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:01 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (118.5ms)
+Completed 200 OK in 696ms (Views: 684.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:12 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 540ms (Views: 535.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:19 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (83.2ms)
+Completed 200 OK in 519ms (Views: 514.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:24 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 158ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:42 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (89.7ms)
+Completed 200 OK in 699ms (Views: 688.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:50 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 816ms (Views: 813.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 12:34:58 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 651ms (Views: 642.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 14:00:02 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (826.3ms)
+Completed 200 OK in 1365ms (Views: 1270.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 14:00:22 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (286.0ms)
+Completed 200 OK in 1213ms (Views: 1196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 14:00:44 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (200.6ms)
+Completed 200 OK in 1747ms (Views: 1723.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 14:00:52 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (185.6ms)
+Completed 200 OK in 731ms (Views: 715.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-24 14:01:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (176.4ms)
+Completed 200 OK in 369ms (Views: 344.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:13:01 -0400
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (2378.0ms)
+Completed 200 OK in 2504ms (Views: 2490.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:14:37 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (88.4ms)
+Completed 200 OK in 1121ms (Views: 1103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:17:33 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (62.3ms)
+Completed 200 OK in 762ms (Views: 751.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:18:21 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 592ms (Views: 588.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:18:42 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 738ms (Views: 728.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:18:49 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 612ms (Views: 607.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:18:58 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 492ms (Views: 487.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:19:14 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 433ms (Views: 429.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:20:07 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 532ms (Views: 528.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:21:05 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 597ms (Views: 593.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:21:30 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 496ms (Views: 492.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:21:37 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 443ms (Views: 439.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:22:56 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (68.4ms)
+Completed 200 OK in 209ms (Views: 197.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:23:32 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 610ms (Views: 604.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:23:46 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 125ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:25:45 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (99.9ms)
+Completed 200 OK in 249ms (Views: 237.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:26:38 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 162ms (Views: 158.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-31 11:29:01 -0400
+Processing by StaticController#home as HTML
+  Rendering static/home.html.erb within layouts/application
+  Rendered static/home.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 743ms (Views: 734.7ms | ActiveRecord: 0.0ms)
+
+
