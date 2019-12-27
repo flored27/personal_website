@@ -15,54 +15,11 @@ ActiveRecord::Schema.define(version: 20180418220849) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "article_outfits", force: :cascade do |t|
-    t.integer "outfit_id"
-    t.integer "article_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "articles", force: :cascade do |t|
-    t.string "color"
-    t.boolean "summer"
-    t.boolean "winter"
-    t.string "category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.integer "user_id"
-    t.string "image_file_name"
-    t.string "image_content_type"
-    t.integer "image_file_size"
-    t.datetime "image_updated_at"
-    t.string "description"
-  end
-
   create_table "messages", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.bigint "phone"
     t.string "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "outfits", force: :cascade do |t|
-    t.integer "user_id"
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "article_ids"
-    t.integer "top_id"
-    t.integer "bottom_id"
-    t.integer "outerwear_id"
-    t.integer "shoes_id"
-    t.integer "accessory_id"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "email"
-    t.string "password_digest"
-    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
