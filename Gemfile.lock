@@ -98,7 +98,8 @@ GEM
     nprogress-rails (0.2.0.2)
     pg (0.21.0)
     public_suffix (3.0.2)
-    puma (3.11.3)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     rack (2.0.4)
     rack-protection (2.0.0)
       rack
@@ -205,7 +206,7 @@ DEPENDENCIES
   mail_form
   nprogress-rails
   pg (< 1.0)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.5)
   sass-rails (~> 5.0)
   selenium-webdriver
